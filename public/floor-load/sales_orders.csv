@@ -1,0 +1,4 @@
+﻿so_number,company,order_date,lead_time_weeks,target_despatch,status,sage_id
+3359,Fire Security Team,2026-08-04,4,2026-09-01,open,
+3367,Outdoor Access Trust,2026-08-11,3,2026-09-01,open,
+3401,Natural England,2026-08-14,6,2026-09-25,waiting_on_customer,

@@ -1,0 +1,716 @@
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/28/2026, 10:55:24 PM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/28/2026, 10:55:24 PM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error: aborted
+    at abortIncoming (node:_http_server:838:17)
+    ... 3 lines matching cause stack trace ...
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+  cause: Error: aborted
+      at abortIncoming (node:_http_server:838:17)
+      at socketOnClose (node:_http_server:832:3)
+      at Socket.emit (node:events:531:35)
+      at TCP.<anonymous> (node:net:347:12)
+      at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'ECONNRESET'
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+node:internal/fs/promises:639
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/initdb.wasm'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.b$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:99:11) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/initdb.wasm'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/28/2026, 10:55:24 PM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error: aborted
+    at abortIncoming (node:_http_server:838:17)
+    ... 3 lines matching cause stack trace ...
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+  cause: Error: aborted
+      at abortIncoming (node:_http_server:838:17)
+      at socketOnClose (node:_http_server:832:3)
+      at Socket.emit (node:events:531:35)
+      at TCP.<anonymous> (node:net:347:12)
+      at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'ECONNRESET'
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/28/2026, 10:55:24 PM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/29/2026, 1:53:47 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/29/2026, 1:53:47 PM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/31/2026, 10:49:06 AM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/31/2026, 10:49:06 AM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: ENOENT: no such file or directory, open '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+    at async open (node:internal/fs/promises:639:25)
+    at async Module.readFile (node:internal/fs/promises:1252:14)
+    at async Object.w$2 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:114:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/.vercel/output/functions/__server.func/_libs/pglite.data'
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/31/2026, 11:55:51 AM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 8/31/2026, 12:04:35 PM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error: aborted
+    at abortIncoming (node:_http_server:838:17)
+    ... 3 lines matching cause stack trace ...
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+  cause: Error: aborted
+      at abortIncoming (node:_http_server:838:17)
+      at socketOnClose (node:_http_server:832:3)
+      at Socket.emit (node:events:531:35)
+      at TCP.<anonymous> (node:net:347:12)
+      at TCP.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'ECONNRESET'
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 9:38:17 AM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 10:01:09 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 11:53:59 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 1:13:47 PM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 1:34:27 PM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/2/2026, 2:22:55 PM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 8:50:46 AM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 9:09:29 AM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+[db] PGLite bootstrap failed: error: cannot use subquery in transform expression
+    at pe$1.Ue$1 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5489:53)
+    at pe$1.tt$1 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5410:38)
+    at pe$1.parse (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5366:29)
+    at N.qe (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:14904:23)
+    at file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:14889:23
+    at wasm://wasm/0267bb86:wasm-function[10930]:0x5a5ccf
+    at wasm://wasm/0267bb86:wasm-function[3585]:0x27eaeb
+    at wasm://wasm/0267bb86:wasm-function[3627]:0x2869d1
+    at wasm://wasm/0267bb86:wasm-function[3637]:0x286c2d
+    at wasm://wasm/0267bb86:wasm-function[9914]:0x54fd4d {
+  length: 992,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: '343',
+  internalQuery: 'alter table problem_tickets\n' +
+    '      alter column notes_to_production type text using (\n' +
+    '        case\n' +
+    "          when notes_to_production is null then ''\n" +
+    "          when jsonb_typeof(notes_to_production) = 'string'\n" +
+    "            then coalesce(notes_to_production #>> '{}', '')\n" +
+    "          when jsonb_typeof(notes_to_production) = 'array' then coalesce((\n" +
+    '            select string_agg(\n' +
+    '              nullif(\n' +
+    '                trim(both from coalesce(\n' +
+    "                  elem->>'text',\n" +
+    "                  case when jsonb_typeof(elem) = 'string' then elem #>> '{}' else '' end\n" +
+    '                )),\n' +
+    "                ''\n" +
+    '              ),\n' +
+    "              E'\\n'\n" +
+    '            )\n' +
+    '            from jsonb_array_elements(notes_to_production) as t(elem)\n' +
+    "          ), '')\n" +
+    "          else coalesce(notes_to_production #>> '{}', '')\n" +
+    '        end\n' +
+    '      )',
+  where: 'PL/pgSQL function inline_code_block line 12 at SQL statement',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_expr.c',
+  line: '1886',
+  routine: 'transformSubLink',
+  query: '-- Problem ticket notes to production are current text, same as work orders.\n' +
+    '\n' +
+    'do $$\n' +
+    'begin\n' +
+    '  if exists (\n' +
+    '    select 1\n' +
+    '    from information_schema.columns\n' +
+    "    where table_schema = 'public'\n" +
+    "      and table_name = 'problem_tickets'\n" +
+    "      and column_name = 'notes_to_production'\n" +
+    "      and data_type = 'jsonb'\n" +
+    '  ) then\n' +
+    '    alter table problem_tickets alter column notes_to_production drop default;\n' +
+    '    alter table problem_tickets\n' +
+    '      alter column notes_to_production type text using (\n' +
+    '        case\n' +
+    "          when notes_to_production is null then ''\n" +
+    "          when jsonb_typeof(notes_to_production) = 'string'\n" +
+    "            then coalesce(notes_to_production #>> '{}', '')\n" +
+    "          when jsonb_typeof(notes_to_production) = 'array' then coalesce((\n" +
+    '            select string_agg(\n' +
+    '              nullif(\n' +
+    '                trim(both from coalesce(\n' +
+    "                  elem->>'text',\n" +
+    "                  case when jsonb_typeof(elem) = 'string' then elem #>> '{}' else '' end\n" +
+    '                )),\n' +
+    "                ''\n" +
+    '              ),\n' +
+    "              E'\\n'\n" +
+    '            )\n' +
+    '            from jsonb_array_elements(notes_to_production) as t(elem)\n' +
+    "          ), '')\n" +
+    "          else coalesce(notes_to_production #>> '{}', '')\n" +
+    '        end\n' +
+    '      );\n' +
+    "    alter table problem_tickets alter column notes_to_production set default '';\n" +
+    '    alter table problem_tickets alter column notes_to_production set not null;\n' +
+    '  end if;\n' +
+    'end $$;\n',
+  params: undefined,
+  queryOptions: undefined
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+error: cannot use subquery in transform expression
+    at pe$1.Ue$1 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5489:53)
+    at pe$1.tt$1 (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5410:38)
+    at pe$1.parse (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:5366:29)
+    at N.qe (file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:14904:23)
+    at file:///workspace/.vercel/output/functions/__server.func/_libs/electric-sql__pglite.mjs:14889:23
+    at wasm://wasm/0267bb86:wasm-function[10930]:0x5a5ccf
+    at wasm://wasm/0267bb86:wasm-function[3585]:0x27eaeb
+    at wasm://wasm/0267bb86:wasm-function[3627]:0x2869d1
+    at wasm://wasm/0267bb86:wasm-function[3637]:0x286c2d
+    at wasm://wasm/0267bb86:wasm-function[9914]:0x54fd4d {
+  length: 992,
+  severity: 'ERROR',
+  code: '0A000',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: '343',
+  internalQuery: 'alter table problem_tickets\n' +
+    '      alter column notes_to_production type text using (\n' +
+    '        case\n' +
+    "          when notes_to_production is null then ''\n" +
+    "          when jsonb_typeof(notes_to_production) = 'string'\n" +
+    "            then coalesce(notes_to_production #>> '{}', '')\n" +
+    "          when jsonb_typeof(notes_to_production) = 'array' then coalesce((\n" +
+    '            select string_agg(\n' +
+    '              nullif(\n' +
+    '                trim(both from coalesce(\n' +
+    "                  elem->>'text',\n" +
+    "                  case when jsonb_typeof(elem) = 'string' then elem #>> '{}' else '' end\n" +
+    '                )),\n' +
+    "                ''\n" +
+    '              ),\n' +
+    "              E'\\n'\n" +
+    '            )\n' +
+    '            from jsonb_array_elements(notes_to_production) as t(elem)\n' +
+    "          ), '')\n" +
+    "          else coalesce(notes_to_production #>> '{}', '')\n" +
+    '        end\n' +
+    '      )',
+  where: 'PL/pgSQL function inline_code_block line 12 at SQL statement',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_expr.c',
+  line: '1886',
+  routine: 'transformSubLink',
+  query: '-- Problem ticket notes to production are current text, same as work orders.\n' +
+    '\n' +
+    'do $$\n' +
+    'begin\n' +
+    '  if exists (\n' +
+    '    select 1\n' +
+    '    from information_schema.columns\n' +
+    "    where table_schema = 'public'\n" +
+    "      and table_name = 'problem_tickets'\n" +
+    "      and column_name = 'notes_to_production'\n" +
+    "      and data_type = 'jsonb'\n" +
+    '  ) then\n' +
+    '    alter table problem_tickets alter column notes_to_production drop default;\n' +
+    '    alter table problem_tickets\n' +
+    '      alter column notes_to_production type text using (\n' +
+    '        case\n' +
+    "          when notes_to_production is null then ''\n" +
+    "          when jsonb_typeof(notes_to_production) = 'string'\n" +
+    "            then coalesce(notes_to_production #>> '{}', '')\n" +
+    "          when jsonb_typeof(notes_to_production) = 'array' then coalesce((\n" +
+    '            select string_agg(\n' +
+    '              nullif(\n' +
+    '                trim(both from coalesce(\n' +
+    "                  elem->>'text',\n" +
+    "                  case when jsonb_typeof(elem) = 'string' then elem #>> '{}' else '' end\n" +
+    '                )),\n' +
+    "                ''\n" +
+    '              ),\n' +
+    "              E'\\n'\n" +
+    '            )\n' +
+    '            from jsonb_array_elements(notes_to_production) as t(elem)\n' +
+    "          ), '')\n" +
+    "          else coalesce(notes_to_production #>> '{}', '')\n" +
+    '        end\n' +
+    '      );\n' +
+    "    alter table problem_tickets alter column notes_to_production set default '';\n" +
+    '    alter table problem_tickets alter column notes_to_production set not null;\n' +
+    '  end if;\n' +
+    'end $$;\n',
+  params: undefined,
+  queryOptions: undefined
+}
+
+Node.js v22.23.2
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 9:12:06 AM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 9:22:11 AM       │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 11:13:00 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 11:20:19 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 11:44:06 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/3/2026, 11:56:57 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/

@@ -1,0 +1,1 @@
+import{ot as e}from"./dist-Cohvkjgv.js";import{t}from"./index-ii9tcGSH.js";import{t as n}from"./ticket-form-DsKmbPfu.js";var r=e();function i(){let{wo:e}=t.useSearch();return(0,r.jsx)(n,{defaultWo:e??``})}export{i as component};

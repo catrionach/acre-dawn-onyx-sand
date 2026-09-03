@@ -1,0 +1,1 @@
+import{ot as e}from"./dist-Cohvkjgv.js";import{n as t}from"./index-ii9tcGSH.js";import{t as n}from"./ticket-form-DsKmbPfu.js";var r=e();function i(){let{ticketNumber:e}=t.useParams();return e===`new`?(0,r.jsx)(n,{}):(0,r.jsx)(n,{ticketNumber:e})}export{i as component};

@@ -1,0 +1,4 @@
+﻿wo_number,part,qty,status,assigned_build,built_in_sage,date_added,date_started,date_closed,customer_need_date,notes_to_production,notes_from_sales
+506,ASSY.TX100,40,active,David,no,2026-07-28,2026-08-26,,2026-09-05,Batch for stock,
+1694,RBPB-N-B,1,pending,David,no,2026-08-12,,,2026-08-21,Replace returned board,
+508,LEADSET-103-M,100,pending,Simon,no,2026-08-20,,,,,Fire Security x3 and Outdoor Access x2 on this batch.

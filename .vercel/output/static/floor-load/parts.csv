@@ -1,0 +1,4 @@
+﻿part_number,name,logger,type,counts,directional,build_time_hours,notes,active
+ASSY.TX100,TX100 assembly,TX100,assembly,,no,0.4,,yes
+RBPB-N-B,Remote button PCB N-B,,pcb,,yes,8,North-bound legend,yes
+LEADSET-103-M,Lead set 103 moulded,,leadset,,no,0.2,,yes

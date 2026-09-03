@@ -1,0 +1,2 @@
+﻿ticket_number,work_order_number,unit_id,title,problem,status,assigned_to,date_opened
+QT-1,1694,,Silk legend reversed,N-B legend reads the wrong way on the button PCB.,open,David,2026-08-21
